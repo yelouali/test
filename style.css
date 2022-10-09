@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    text-align:  ;
+    
+}
+body{
+
+    background-color: yellowgreen;
+}
+#container{
+    width: 70%;
+    margin: auto;
+    
+}
+
+#logo{
+    background-color: brown;
+}
+
+
+ #logo h1{
+    color: rgba(129, 31, 31, 0.568);
+    padding-top: 10px; padding-left: 10px;
+    float:left;
+} 
+
+.textbox{
+    
+    /* border-bottom: brown; */
+    height: 25px;
+    width: 220px;
+    /* border-style:double; */
+    color: rgb(44, 40, 40);
+    font-size: 14px;
+    box-shadow: 9px 9px 19px 2px gainsboro;
+    
+    
+    
+}
+
+.lbl{
+    color: gray;
+    font-size: 20px;
+}
+
+#header-section{
+    
+    margin-top: 35px;
+}
+
+#nav-links{
+    float: right;
+    padding: 0%;
+
+}
+#nav-links ul {
+    list-style: none;
+    font-size: 22px;
+    padding: 0;
+    
+    
+    
+    
+    
+}
+
+#nav-links ul li{
+    display: inline;
+    padding-right: 20px;
+    line-height: 50px;
+    
+}
+
+#nav-links ul li a{
+    color: white    ;
+    text-decoration: none;
+    font-weight: bolder;
+} 
+
+#nav-links ul li a:hover {
+    color: rgb(26, 14, 14);
+    text-decoration: underline;
+    
+}
+
+
+
+#parag{
+    border: solid 1px green;
+    padding: 5px;
+    column-gap: 19px;
+    column-count: 10;
+    column-width: 120px;
+}
+
+.div-inline{
+    width: 300px;
+    float: left;
+    color: blueviolet;
+    padding: 40px;
+    margin: 30px;
+    border: 2px solid black;
+}
